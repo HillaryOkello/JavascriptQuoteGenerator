@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Okello's random quote machine</title>
+</head>
+
+<body>
+    <div class="wrapper page-content randomBgColor">
+        <div id="quote-box">
+            <div class="quote-text randomTxtColor">
+                <div id="text">Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.</div>
+            </div>
+            <div id="author" class="quote-author randomTxtColor">
+                <span>Mosher’s Law of Software Engineering</span>
+            </div>
+            <div class="buttons">
+                <a class="button" id="tweet-quote" href="twitter.com/intent/tweet" title="tweet this quote"><i class="fas fa-twitter"></i></a>
+                <button onclick="displayQuote(), displayAuthor()" class="button cta randomBgColor" id="new-quote">
+                    New Quote
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
